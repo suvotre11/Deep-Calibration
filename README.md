@@ -3,7 +3,7 @@ This repository is solely to hold the cold for the bachelor thesis "Deep Calibra
 
 The provided code entails a comprehensive methodology aimed at estimating model parameters for option pricing through a combination of Monte Carlo simulation and machine learning techniques. Let's break down the code and its functionality into various components:
 
-    Importing Libraries: The code begins by importing necessary libraries such as NumPy for numerical computations, Keras for building and training neural networks, and Matplotlib for visualization purposes.
+Importing Libraries: The code begins by importing necessary libraries such as NumPy for numerical computations, Keras for building and training neural networks, and Matplotlib for visualization purposes.
 
     Defining Parameters: Several parameters are defined, including the time discretization NN, the initial asset value S0S0, the strike price for the call option, maturity TT, activation function for the neural network, the number of paths used in Monte Carlo simulation RR, sizes of training and test data, epochs for training the neural network, risk-free interest rate r_freer_free, and the underlying assumption (either "Heston" or "Black-Scholes").
 
